@@ -8,8 +8,8 @@ def sendEmail(To,Message):
    try: 
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.starttls()
-    server.login('itachiiiiiiiiiii69@gmail.com','seze xnqu ezum xhik')
-    server.sendmail('itachiiiiiiiiiii69@gmail.com',To,Message)
+    server.login('your gmail','your app password')
+    server.sendmail('your gmail',To,Message)
     server.close()
     print("Email sent!")
 
